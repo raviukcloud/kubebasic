@@ -11,4 +11,5 @@ RUN apt-get update \
 ADD default /etc/nginx/sites-available/default
 
 EXPOSE 80
+EXPOSE 8080
 CMD ["nginx"]
